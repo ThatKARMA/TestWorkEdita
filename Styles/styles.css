@@ -22,6 +22,15 @@ html {
   text-decoration: none;
   color: white;
 }
+.hover_imageScale {
+  transition: 3s;
+}
+.hover_imageScale:hover {
+  transform: scale(1.07);
+}
+.hoverLink__fixedSideMenu {
+  transition: 3s;
+}
 .header {
   height: 80px;
   width: 1600px;
@@ -49,10 +58,30 @@ html {
   width: 113px;
   background-color: #284aa8;
   margin-top: 1px;
+  transition: all 1.5s ease;
+  color: white;
+  font-size: 13px;
+}
+.fixedSideMenu_block:hover {
+  transform: translateX(-70px);
+}
+.left_contain__fixedSideMenu {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.right_contain__fixedSideMenu {
+  margin-top: 10px;
+  margin-left: 20px;
+  text-align: center;
+}
+.right_contain__fixedSideMenu_last {
+  margin-top: 15px;
+  margin-left: 20px;
+  text-align: center;
 }
 .fixedSideMenu {
   position: fixed;
-  margin-left: 1640px;
+  margin-left: 1710px;
   margin-top: 170px;
 }
 .main {
@@ -130,4 +159,38 @@ html {
   padding-top: 20px;
   min-width: 130px;
   margin-left: 50px;
+}
+.gridblock__furCoat {
+  height: 940px;
+  width: 1170px;
+  margin-left: 215px;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
+.gridblock_furCoat_1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  background-color: gray;
+}
+.gridblock_furCoat_2 {
+  background-color: gray;
+}
+.gridblock_furCoat_3 {
+  background-color: gray;
+}
+.gridblock_furCoat_4 {
+  background-color: #1072c2;
+}
+.gridblock_furCoat_5 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  background-color: gray;
 }
