@@ -190,3 +190,67 @@
   text-align: center;
   font-size: 15px;
 }
+.about_factory {
+  height: 650px;
+  background-color: white;
+}
+.background__about_factory {
+  height: 340px;
+  z-index: 2;
+}
+.header__aboutFactory {
+  width: 222px;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  margin-left: 690px;
+  margin-top: -270px;
+  position: relative;
+}
+.mainblock__about_factory {
+  margin-left: 215px;
+  padding: 34px;
+  margin-top: -195px;
+  width: 1170px;
+  height: 435px;
+  background-color: white;
+  z-index: 3;
+  position: absolute;
+}
+.picblock_mainblock__about_factory {
+  height: 355px;
+  width: 535px;
+}
+.textblock_mainblock__about_factory {
+  height: 355px;
+  width: 535px;
+  margin-right: 20px;
+}
+.textblock1_mainblock__about_factory {
+  margin-bottom: 75px;
+  margin-top: 45px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.textblock2_mainblock__about_factory {
+  font-size: 16px;
+}
+.wrapButton__about_factory {
+  margin-top: 40px;
+  height: 30px;
+  width: 275px;
+  outline: 1px solid black;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+}
+.button__about_factory {
+  text-decoration: none;
+  color: black;
+}
+.featured_product {
+  height: 910px;
+  background-color: white;
+}
