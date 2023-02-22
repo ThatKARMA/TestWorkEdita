@@ -17,18 +17,57 @@ html {
   box-shadow: 0 0 10px black;
   min-height: 100vh;
 }
+.noStyleText_forLink {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
 .header {
   height: 80px;
   width: 1600px;
-  background-color: blue;
+  background-color: #284aa8;
+}
+.logo__header {
+  height: 55px;
+  width: 235px;
+  background-color: white;
+  margin-left: 215px;
+  margin-top: 25px;
+}
+.logo__header > img {
+  margin-top: 20px;
+}
+.nav_header__element {
+  margin-left: 35px;
+  margin-top: 35px;
+}
+.nav_header__leftSidePicture {
+  margin-right: 10px;
 }
 .fixedSideMenu_block {
   height: 50px;
   width: 113px;
-  background-color: blue;
-  margin-top: 5px;
+  background-color: #284aa8;
+  margin-top: 1px;
 }
 .fixedSideMenu {
   position: fixed;
-  margin-left: 1487px;
+  margin-left: 1640px;
+  margin-top: 170px;
+}
+.main {
+  height: 5800px;
+  width: 1600px;
+  background-color: black;
+}
+.furCoat_block {
+  height: 1060px;
+  width: 1600px;
+  background-color: wheat;
+}
+.nav__main {
+  margin-left: 215px;
+  height: 55px;
+  width: 1170px;
+  background-color: white;
 }

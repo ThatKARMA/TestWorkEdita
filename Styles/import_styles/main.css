@@ -1,10 +1,27 @@
 .fixedSideMenu_block {
   height: 50px;
   width: 113px;
-  background-color: blue;
-  margin-top: 5px;
+  background-color: #284aa8;
+  margin-top: 1px;
 }
 .fixedSideMenu {
   position: fixed;
-  margin-left: 1487px;
+  margin-left: 1640px;
+  margin-top: 170px;
+}
+.main {
+  height: 5800px;
+  width: 1600px;
+  background-color: black;
+}
+.furCoat_block {
+  height: 1060px;
+  width: 1600px;
+  background-color: wheat;
+}
+.nav__main {
+  margin-left: 215px;
+  height: 55px;
+  width: 1170px;
+  background-color: white;
 }

@@ -17,3 +17,8 @@ html {
   box-shadow: 0 0 10px black;
   min-height: 100vh;
 }
+.noStyleText_forLink {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
