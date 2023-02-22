@@ -347,3 +347,16 @@ html {
   height: 680px;
   background-color: gray;
 }
+.footer_allInfoBlock {
+  height: 492px;
+  width: 1600px;
+  background-color: #5c5c5c;
+}
+.map__footer {
+  height: 148px;
+  background-color: #4b4b4b;
+}
+.copyright__footer {
+  height: 45px;
+  background-color: white;
+}
