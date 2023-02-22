@@ -309,3 +309,41 @@ html {
   height: 910px;
   background-color: white;
 }
+.header__featured_product {
+  height: 22px;
+  width: 443px;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  margin-left: 575px;
+}
+.client_service {
+  height: 345px;
+  background-color: white;
+}
+.leftblock__client_service {
+  height: 345px;
+  width: 800px;
+}
+.rightblock__client_service {
+  background-color: gray;
+  height: 345px;
+  width: 800px;
+}
+.discounted_goods {
+  height: 950px;
+  background-color: white;
+}
+.useful_articles {
+  height: 645px;
+  background-color: gray;
+}
+.novelties {
+  height: 950px;
+  background-color: white;
+}
+.footer {
+  height: 680px;
+  background-color: gray;
+}
