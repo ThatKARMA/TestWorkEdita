@@ -139,3 +139,54 @@
   grid-row-end: 4;
   background-color: gray;
 }
+.gridblock__pluses_edita {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  margin-left: 215px;
+  width: 1170px;
+  height: 295px;
+}
+.pluses_edita {
+  background-color: white;
+  height: 295px;
+}
+.header_plusesEdita_1,
+.header_plusesEdita_2,
+.header_plusesEdita_3,
+.header_plusesEdita_4,
+.header_plusesEdita_5 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 12px;
+}
+.header_plusesEdita_1 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.header_plusesEdita_2 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.header_plusesEdita_3 {
+  margin-top: 15px;
+  margin-bottom: 22px;
+}
+.header_plusesEdita_4 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.header_plusesEdita_5 {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+.pic_plusesEdita {
+  text-align: center;
+  margin-top: 55px;
+  margin-bottom: 10px;
+}
+.textblock_plusesEdita {
+  text-align: center;
+  font-size: 15px;
+}
