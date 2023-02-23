@@ -14,7 +14,6 @@ html {
 .container {
   width: 1600px;
   margin: 0 auto;
-  box-shadow: 0 0 10px black;
   min-height: 100vh;
 }
 .noStyleText_forLink {
@@ -30,6 +29,15 @@ html {
 }
 .hoverLink__fixedSideMenu {
   transition: 3s;
+}
+.closeWall_fixed_side_menu {
+  position: absolute;
+  height: 254px;
+  width: 90px;
+  background-color: #ffffff;
+  margin-left: 42px;
+  margin-top: 1px;
+  z-index: 5;
 }
 .header {
   height: 80px;
@@ -309,15 +317,6 @@ html {
   height: 910px;
   background-color: white;
 }
-.header__featured_product {
-  height: 22px;
-  width: 443px;
-  font-size: 30px;
-  font-weight: bold;
-  color: black;
-  text-align: center;
-  margin-left: 575px;
-}
 .client_service {
   height: 345px;
   background-color: white;
@@ -335,18 +334,11 @@ html {
   height: 950px;
   background-color: white;
 }
-.useful_articles {
-  height: 645px;
-  background-color: gray;
-}
 .novelties {
   height: 950px;
   background-color: white;
 }
 .wrap_leftblock_clientService_pic {
-  position: absolute;
-}
-.wrap_rightblock_clientService_pic {
   position: absolute;
 }
 .textblock_leftblock_clientService {
@@ -356,9 +348,10 @@ html {
   color: white;
 }
 .textblock_rightblock_clientService {
-  position: relative;
+  position: absolute;
   text-align: center;
-  padding-top: 70px;
+  margin-top: -290px;
+  margin-left: 170px;
 }
 .header_textblock_leftblock_clientService {
   font-size: 14px;
@@ -393,6 +386,139 @@ html {
   outline: 1px solid white;
   margin-left: 300px;
   font-size: 14px;
+}
+.useful_articles {
+  height: 645px;
+  background-color: #c0bbbb;
+}
+.header__useful_articles {
+  text-align: center;
+  padding-top: 80px;
+  font-size: 30px;
+}
+.centerBlock__useful_articles {
+  height: 345px;
+  width: 1170px;
+  padding-top: 50px;
+  padding-left: 215px;
+  padding-bottom: 65px;
+  padding-right: 215px;
+}
+.left__useful_articles,
+.right__useful_articles,
+.background_img__usefularticlesLeft {
+  height: 345px;
+  width: 570px;
+  text-align: center;
+}
+.background_img__usefularticlesRight,
+.background_img__usefularticlesLeft {
+  position: absolute;
+}
+.textblock__useful_articles_right,
+.textblock__useful_articles_left,
+.button__useful_articles,
+.button__useful_articles_2 {
+  position: relative;
+}
+.backgroundWhite__usefulArticles {
+  background-color: rgba(255, 255, 255, 0.75);
+  height: 272px;
+  width: 497px;
+  margin-top: 37px;
+  margin-left: 37px;
+  position: relative;
+}
+.button__useful_articles > a {
+  color: white;
+  display: block;
+  text-decoration: none;
+  margin-top: 32px;
+  width: 170px;
+  padding-top: 15px;
+  height: 35px;
+  margin-left: 200px;
+  outline: 1px solid white;
+}
+.button__useful_articles_2 > a {
+  color: black;
+  display: block;
+  text-decoration: none;
+  margin-top: 32px;
+  width: 170px;
+  padding-top: 15px;
+  height: 35px;
+  margin-left: 163px;
+  outline: 1px solid black;
+}
+.textblock__useful_articles_right {
+  padding-top: 78px;
+  font-size: 24px;
+}
+.textblock__useful_articles_left {
+  padding-top: 115px;
+  font-size: 24px;
+}
+.textblock__useful_articles_left {
+  color: white;
+}
+.readMore__useful_articles {
+  text-align: center;
+}
+.readMore__useful_articles > a {
+  text-decoration: none;
+  font-size: 14px;
+  border-bottom: 1px solid gray;
+  color: black;
+}
+.header__discounted_goods {
+  padding-top: 88px;
+  height: 22px;
+  width: 350px;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  margin-left: 23px;
+}
+.header__novelties {
+  padding-top: 88px;
+  height: 22px;
+  width: 156px;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  margin-left: 23px;
+}
+.header__featured_product {
+  height: 22px;
+  width: 408px;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  margin-left: 23px;
+}
+.leftYellowWall {
+  margin-top: 95px;
+  margin-left: 592px;
+}
+.rightYellowWall {
+  margin-left: 27px;
+  margin-top: 95px;
+}
+.rightYellowWall__featured_product {
+  margin-left: 27px;
+  margin-top: 7px;
+}
+.leftYellowWall__featured_product {
+  margin-left: 592px;
+  margin-top: 7px;
+}
+.leftYellowWall_novelties {
+  margin-left: 700px;
+  margin-top: 95px;
 }
 .footer {
   height: 680px;
