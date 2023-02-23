@@ -288,3 +288,54 @@
   height: 950px;
   background-color: white;
 }
+.wrap_leftblock_clientService_pic {
+  position: absolute;
+}
+.wrap_rightblock_clientService_pic {
+  position: absolute;
+}
+.textblock_leftblock_clientService {
+  position: relative;
+  text-align: center;
+  padding-top: 70px;
+  color: white;
+}
+.textblock_rightblock_clientService {
+  position: relative;
+  text-align: center;
+  padding-top: 70px;
+}
+.header_textblock_leftblock_clientService {
+  font-size: 14px;
+}
+.header_textblock_rightblock_clientService {
+  margin-top: 30px;
+  font-size: 24px;
+}
+.header2_textblock_leftblock_clientService {
+  margin-top: 35px;
+  margin-bottom: 35px;
+  font-size: 24px;
+}
+.text_textblock_rightblock_clientService {
+  margin-top: 25px;
+}
+.guarantee {
+  margin-bottom: 6px;
+}
+.text_textblock_leftblock_clientService {
+  margin-bottom: 40px;
+  font-size: 16px;
+}
+.button_textblock_leftblock_clientService > a {
+  display: block;
+  width: 195px;
+  height: 32px;
+  padding-top: 18px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  outline: 1px solid white;
+  margin-left: 300px;
+  font-size: 14px;
+}
