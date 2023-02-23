@@ -191,7 +191,7 @@
   font-size: 15px;
 }
 .about_factory {
-  height: 650px;
+  height: 610px;
   background-color: white;
 }
 .background__about_factory {
@@ -251,7 +251,7 @@
   color: black;
 }
 .featured_product {
-  height: 910px;
+  height: 950px;
   background-color: white;
 }
 .client_service {
@@ -273,7 +273,7 @@
 }
 .novelties {
   height: 950px;
-  background-color: white;
+  background-color: #4e4d4d;
 }
 .wrap_leftblock_clientService_pic {
   position: absolute;
@@ -436,6 +436,7 @@
   color: black;
   text-align: center;
   margin-left: 23px;
+  padding-top: 40px;
 }
 .leftYellowWall {
   margin-top: 95px;
@@ -447,11 +448,11 @@
 }
 .rightYellowWall__featured_product {
   margin-left: 27px;
-  margin-top: 7px;
+  margin-top: 47px;
 }
 .leftYellowWall__featured_product {
   margin-left: 592px;
-  margin-top: 7px;
+  margin-top: 47px;
 }
 .leftYellowWall_novelties {
   margin-left: 700px;

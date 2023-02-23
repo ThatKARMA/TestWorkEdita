@@ -254,7 +254,7 @@ html {
   font-size: 15px;
 }
 .about_factory {
-  height: 650px;
+  height: 610px;
   background-color: white;
 }
 .background__about_factory {
@@ -314,7 +314,7 @@ html {
   color: black;
 }
 .featured_product {
-  height: 910px;
+  height: 950px;
   background-color: white;
 }
 .client_service {
@@ -336,7 +336,7 @@ html {
 }
 .novelties {
   height: 950px;
-  background-color: white;
+  background-color: #4e4d4d;
 }
 .wrap_leftblock_clientService_pic {
   position: absolute;
@@ -499,6 +499,7 @@ html {
   color: black;
   text-align: center;
   margin-left: 23px;
+  padding-top: 40px;
 }
 .leftYellowWall {
   margin-top: 95px;
@@ -510,11 +511,11 @@ html {
 }
 .rightYellowWall__featured_product {
   margin-left: 27px;
-  margin-top: 7px;
+  margin-top: 47px;
 }
 .leftYellowWall__featured_product {
   margin-left: 592px;
-  margin-top: 7px;
+  margin-top: 47px;
 }
 .leftYellowWall_novelties {
   margin-left: 700px;
@@ -559,4 +560,64 @@ html {
   text-align: center;
   color: gray;
   font-size: 14px;
+}
+.infoBlock__footer {
+  width: 185px;
+  height: 492px;
+}
+.centerFooter_allInfoBlock {
+  height: 492px;
+  width: 1170px;
+  margin-left: 215px;
+  margin-right: 215px;
+  background-color: #726868;
+}
+.navBlock__footer {
+  height: 12px;
+  width: 858px;
+}
+.gridBlock__footer {
+  display: grid;
+  width: 740px;
+  height: 360px;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(4, 1fr);
+}
+.content {
+  margin: auto;
+  padding: 30px;
+  width: 100%;
+  max-width: 600px;
+  box-sizing: border-box;
+}
+h3 {
+  background: #fff;
+  color: #3498db;
+  font-size: 36px;
+  line-height: 100px;
+  margin: 10px;
+  padding: 2%;
+  position: relative;
+  text-align: center;
+}
+.slider1 {
+  padding-top: 180px;
+  width: 1170px;
+  margin-left: 215px;
+}
+.slider2 {
+  padding-top: 180px;
+  width: 1170px;
+  margin-left: 215px;
+}
+.slider3 {
+  padding-top: 180px;
+  width: 1170px;
+  margin-left: 215px;
+}
+.sliderElement_first {
+  margin-right: 30px;
+}
+.sliderElement_second {
+  margin-right: 30px;
 }

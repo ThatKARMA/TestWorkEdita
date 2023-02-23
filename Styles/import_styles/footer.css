@@ -38,3 +38,25 @@
   color: gray;
   font-size: 14px;
 }
+.infoBlock__footer {
+  width: 185px;
+  height: 492px;
+}
+.centerFooter_allInfoBlock {
+  height: 492px;
+  width: 1170px;
+  margin-left: 215px;
+  margin-right: 215px;
+  background-color: #726868;
+}
+.navBlock__footer {
+  height: 12px;
+  width: 858px;
+}
+.gridBlock__footer {
+  display: grid;
+  width: 740px;
+  height: 360px;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(4, 1fr);
+}
