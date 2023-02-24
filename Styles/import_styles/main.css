@@ -237,6 +237,10 @@
   font-size: 16px;
 }
 .wrapButton__about_factory {
+  width: 275px;
+}
+.wrapButton__about_factory > a {
+  display: block;
   margin-top: 40px;
   height: 30px;
   width: 275px;
@@ -273,7 +277,7 @@
 }
 .novelties {
   height: 950px;
-  background-color: #4e4d4d;
+  background-color: #ffffff;
 }
 .wrap_leftblock_clientService_pic {
   position: absolute;
@@ -326,7 +330,7 @@
 }
 .useful_articles {
   height: 645px;
-  background-color: #c0bbbb;
+  background-color: #f0f0f0;
 }
 .header__useful_articles {
   text-align: center;
@@ -457,4 +461,107 @@
 .leftYellowWall_novelties {
   margin-left: 700px;
   margin-top: 95px;
+}
+.priceblock_first,
+.priceblock_second,
+.priceblock_third {
+  position: absolute;
+  background-color: white;
+  height: 190px;
+  width: 337px;
+  margin-left: 15px;
+  margin-top: 445px;
+}
+.priceblock_second {
+  margin-left: 415px;
+  margin-top: 445px;
+}
+.priceblock_third {
+  margin-left: 815px;
+  margin-top: 445px;
+}
+.header__priceblock {
+  text-align: center;
+  margin-top: 25px;
+  color: gray;
+  margin-bottom: 15px;
+  font-size: 12px;
+}
+.text__priceblock {
+  text-align: center;
+  color: black;
+  font-size: 16px;
+}
+.article__priceblock {
+  text-align: center;
+  color: gray;
+  font-size: 12px;
+}
+.lineupPrices__priceblock {
+  position: absolute;
+  bottom: 0;
+}
+.oldPrice_priceblock {
+  color: gray;
+  font-size: 18px;
+  text-decoration: line-through;
+  margin-left: 65px;
+  margin-bottom: -27px;
+}
+.price_priceblock {
+  font-size: 24px;
+  color: #b98d0f;
+  text-decoration: none;
+  margin-left: 125px;
+  margin-bottom: 25px;
+}
+.moreAbout_priceblock_first,
+.moreAbout_priceblock_second,
+.moreAbout_priceblock_third {
+  position: absolute;
+  bottom: 0;
+  width: 337px;
+  height: 33px;
+  padding-top: 17px;
+  text-align: center;
+  z-index: 3;
+  background-color: rgba(24, 24, 214, 0.836);
+  margin-bottom: -50px;
+  color: #ffffff;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+.wrapButton__about_factory {
+  transition: 0.8s;
+}
+.wrapButton__about_factory:hover {
+  transform: scale(1.1);
+  background-color: #202020;
+}
+.wrapButton__about_factory:hover > a {
+  color: red;
+}
+.button_textblock_leftblock_clientService > a {
+  transition: 1.3s;
+  width: 195px;
+}
+.button_textblock_leftblock_clientService:hover > a {
+  color: red;
+  background-color: white;
+  outline: 2px solid #2bff00;
+  font-weight: bold;
+  transform: scale(1.2);
+}
+.button__useful_articles_2 > a,
+.button__useful_articles > a {
+  transition: 0.7s;
+}
+.button__useful_articles_2 > a:hover,
+.button__useful_articles > a:hover {
+  transform: scale(1.1);
+}
+.readMore__useful_articles > a:hover {
+  color: red;
+  border-bottom: black 1px solid;
 }
