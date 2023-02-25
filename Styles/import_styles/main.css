@@ -28,9 +28,9 @@
   position: fixed;
   margin-left: 1559px;
   margin-top: 170px;
+  z-index: 4;
 }
 .main {
-  height: 5800px;
   width: 1600px;
   background-color: black;
 }
