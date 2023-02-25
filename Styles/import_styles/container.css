@@ -22,7 +22,7 @@ html {
   color: white;
 }
 .hover_imageScale {
-  transition: 3s;
+  transition: 0.9s;
 }
 .hover_imageScale:hover {
   transform: scale(1.07);

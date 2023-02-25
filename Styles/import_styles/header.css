@@ -20,3 +20,12 @@
 .nav_header__leftSidePicture {
   margin-right: 10px;
 }
+.nav_header__element:hover {
+  color: red;
+}
+.nav_header__leftSidePicture {
+  padding-top: 10px;
+}
+.nav_header__rightSideText {
+  margin-top: 15px;
+}

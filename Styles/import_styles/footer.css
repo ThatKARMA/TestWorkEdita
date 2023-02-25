@@ -134,3 +134,8 @@
 .spaceleft__footerCopyright {
   padding-left: 4px;
 }
+.nav_footerElem_1st > a:hover,
+.nav_footerElem > a:hover,
+.nav_footerElem_last > a:hover {
+  color: #fa0000;
+}
