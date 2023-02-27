@@ -1,0 +1,58 @@
+.client_service_2ndpage {
+    margin-top: 500px;
+    overflow: hidden;
+}
+
+.furcoatsToOrder {
+    background-image: url(../img/stock-photo-workflow-and-making-the-animals-fur-patterns-694796227.png);
+    height: 305px;
+}
+
+.furcoatsToOrder_block {
+    top: 0;
+    padding-top: 55px;
+    width: 1170px;
+    height: 250px;
+}
+
+.furcoatsToOrder_head {
+    width: 143px;
+    height: 13px;
+    margin-top: 25px;
+    color: white;
+    font-size: 12px;
+}
+
+.glavnaya_furcoatsToOrder_head {
+    border-bottom: 1px solid white;
+}
+
+.link_furcoatsToOrder_head {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+.link_furcoatsToOrder_head:hover {
+    color: red;
+}
+
+.furcoatsToOrder_button > a {
+    padding-top: 15px;
+    color: black;
+    font-size: 36px;
+    text-decoration: none;
+    height: 55px;
+    width: 368px;
+    background-color: white;
+    margin-top: 70px;
+    margin-left: 400px;
+    display: block;
+    text-align: center;
+    transition: 2s;
+}
+
+.furcoatsToOrder_button > a:hover {
+    color: red;
+    background-color: black;
+}
